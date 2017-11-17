@@ -1,0 +1,198 @@
+@charset "UTF-8";
+.main-slider {
+    float: left;
+    margin: 12px 0 0 220px;
+    width: 730px;
+    height: 454px;
+    position: relative;
+
+}
+
+.main-news {
+    float: right;
+    height: 466px;
+    width: 250px;
+
+}
+
+.main-news-top {
+    width: 248px;
+    height: 372px;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    border: 1px solid #E4E4E4;
+}
+
+.main-slider ul {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    margin-left: -66px;
+}
+
+.main-slider ul li {
+    float: left;
+    width: 18px;
+    height: 18px;
+    background-color: #3E3E3E;
+    text-align: center;
+    line-height: 18px;
+    color: #fff;
+    border-radius: 50%;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.main-slider .current {
+    background-color: red;
+}
+
+.arrow a {
+    position: absolute;
+    top: 50%;
+    width: 28px;
+    height: 62px;
+    margin-top: -31px;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+    font: 400 22px/62px "simsun";
+    border-radius: 3px;
+}
+
+.arrow a:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.arrow-left {
+    left: 0;
+}
+
+.arrow-right {
+    right: 0;
+}
+
+.main-news-top {
+    overflow: hidden;
+}
+
+.main-news-top-faster {
+    height: 163px;
+    border-bottom: 1px dashed #E4E4E4;
+}
+
+.main-news-top-faster-title {
+    height: 32px;
+    border-bottom: 1px dotted #E8E8E7;
+    line-height: 32px;
+    padding: 0 15px;
+}
+
+.main-news-top-faster-title h2 {
+    float: left;
+    font: 400 16px/32px "microsoft yahei";
+}
+
+.main-news-top-faster-title a {
+    float: right;
+    font-family: "consolas";
+
+}
+
+.main-news-top-faster-conter {
+    padding: 5px 0 0 15px;
+
+}
+
+.main-news-top-faster-conter li {
+    height: 24px;
+}
+
+.main-news-top-faster-conter span {
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.main-news-top-money ul {
+    width: 260px;
+}
+
+.main-news-top-money ul li {
+    float: left;
+    width: 62px;
+    height: 70px;
+    border: 1px solid #E8E8E7;
+    margin-left: -1px;
+    margin-top: -1px;
+    border-top: 0px;
+    position: relative;
+}
+
+.main-news-top-money a {
+    display: block;
+    width: 62px;
+    height: 70px;
+    text-align: center;
+    padding-top: 35px;
+    line-height: 35px;
+}
+
+.main-news-top-money i {
+    position: absolute;
+    top: 13px;
+    left: 18px;
+    width: 25px;
+    height: 25px;
+    background: url("../images/fly.png") no-repeat;
+}
+
+.today-left {
+    float: left;
+}
+
+.today-left a {
+    display: block;
+    width: 210px;
+    height: 151px;
+    background: red;
+}
+
+.today {
+    padding: 10px 0 20px;
+}
+
+.today-right {
+    width: 1000px;
+    float: right;
+    overflow: hidden;
+    position: relative;
+}
+
+.today-right ul {
+    width: 410%;
+}
+
+.today-right li {
+    float: left;
+    margin-right: 1px;
+}
+
+.sub-banner {
+    position: relative;
+}
+
+.sub-banner a {
+    position: absolute;
+    width: 100%;
+    height: 644px;
+    background: url("../images/subbanner.jpg") no-repeat center top ;
+
+}
+
+.main{
+    position: relative;
+}
+
+.today{
+    position: relative;
+}
